@@ -145,12 +145,12 @@ main{
     margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: 500;
-    height: 1.6rem;
+    line-height: 1.6rem;
     color: #757575;
 }
 
 .main-tables-container{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .main-tables-container .table-container-1, .table-container-2{
@@ -280,7 +280,6 @@ main{
     height: auto;
     margin-top: 40px;
     padding: 30px 10px;
-    text-align: center;
     background-color: var(--warm-black);
 }
 
@@ -303,6 +302,7 @@ main{
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .product-detail-title h2{
@@ -317,9 +317,78 @@ main{
     font-weight: 500;
     line-height: 1.8rem;
     margin-top: 20px;
-    color: var(--grey);
+    color: #808080;
 }
 
-.main-product-detail .product-cards-container{
+.product-detail-card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #282623;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
 
+
+.product-detail-card .clock{
+    background-image: url('assets/icons/clock.svg');
+}
+
+.product-detail-card .icon-card{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-detail-card .product-card-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin-bottom: 15px;
+    color: var(--white);
+}
+
+.product-detail-card .product-card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail-card .eye{
+    background-image: url('assets/icons/eye.svg');
+}
+
+.product-detail-card .dollar-sign{
+    background-image: url('assets/icons/dollar-sign.svg');
+}
+
+.product-detail-card .check-circle{
+    background-image: url('assets/icons/check-circle.svg');
+}
+
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 40vh;
+    background-image: url('assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+.bitcoin-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+    text-align: center;
 }
