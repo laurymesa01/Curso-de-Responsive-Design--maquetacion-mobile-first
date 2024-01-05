@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="css/tablet.css" media="(min-width: 930px)">
     <title>Curso de Mobile First</title>
 </head>
 <body>
@@ -18,11 +19,12 @@
             <p>
                 Batatabit te ayuda a navegar entre los diferentes precios y  tendencias.
             </p>
-            <a class="header-button" href="">Conoce nuestros planes <span></span></a>
+            <a class="header-button" href="#plans">Conoce nuestros planes <span></span></a>
         </div>
     </header>
 
     <main>
+
         <section class="main-exchange-container">
             <div class="background-img"></div>
             <div class="main-exchange-container-title">
@@ -68,7 +70,6 @@
                                 </div>
                             </div>
                     </div>
-                    <a href="#table-2"><span class="arrow-table"></span></a>
                     <div class="currency-table-date">
                         <p> <b>Actualizado:</b> 19 Julio 23:45</p>
                     </div>
@@ -109,7 +110,7 @@
                                 </div>
                             </div>
                     </div>
-                    <a href="" name="table-2"><span class="arrow-table"></span></a>
+                    <a href=""><span class="arrow-table"></span></a>
                     <div class="currency-table-date">
                         <p> <b>Actualizado:</b> 19 Julio 23:45</p>
                     </div>
@@ -163,9 +164,61 @@
         <section class="bitcoin-img-container">
             <h2>Conocelo hoy</h2>
         </section>
-        
-        <section></section>
+
+        <section  id="plans" class="main-plans-container">
+            <div class="plans-title">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+
+            <section class="plans-container-slider">
+
+                <article class="plans-container-card">
+                    <p class="basic">Basico</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Mensual</h3>
+                        <p class="plan-card-price"><span>$</span> 19</p>
+                        <p class="plan-card-saving">*Plan basico aunque con todas ventajas.</p>
+                        <button class="plan-card-ca basic-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container-card">
+                    <p class="recommended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card-price"><span>$</span> 99</p>
+                        <p class="plan-card-saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca recommended-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+                <article class="plans-container-card">
+                    <p class="limited">Limitado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">De por vida</h3>
+                        <p class="plan-card-price"><span class="span-limited">$</span> 199</p>
+                        <p class="plan-card-saving">*Exclusivo para los primeros 100 clientes con un precio especial.</p>
+                        <button class="plan-card-ca limited-ca">Escoger este <span></span></button>
+                    </div>
+                </article>
+
+            </section>
+        </section>
+
     </main>
-    <footer></footer>
+
+    <footer>
+        <section class="left">
+            <ul>
+                <li> <a href="#">Linkedin</a> </li>
+                <li> <a href="#">Crunchbase</a> </li>
+                <li> <a href="#">Hackernews</a> </li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="assets/img/logo-footer.svg" alt="Logo de Batatabit">
+        </section>
+    </footer>
 </body>
 </html>
